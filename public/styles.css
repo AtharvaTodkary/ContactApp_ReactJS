@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 400px;
+  min-width: 400px;
+  background-color: #dfe6e9;
+  text-align: center;
+}
+.card {
+  /* border: 1px solid red; */
+  margin: 50px;
+  border-radius: 15px;
+}
+.top-card {
+  height: 80px;
+  padding-left: 5vh;
+  background-color: rgb(5, 212, 212);
+  border-radius: 15px 15px 0 0;
+  /* border: 1px solid black; */
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10vh;
+}
+.top-card .contact-name {
+  margin: 30px 10px;
+}
+.top-card .php {
+  height: 130px;
+  width: 130px;
+  border: 5px solid white;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.bottom-card {
+  height: 120px;
+  padding-top: 30px;
+  background-color: rgb(120, 255, 242);
+  border-radius: 0 0 15px 15px;
+  padding-left: 15px;
+}
+.bottom-card p {
+  text-align: left;
+}
